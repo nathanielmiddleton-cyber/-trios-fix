@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF"/>
+      <stop offset="100%" style="stop-color:#0F172A"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22D3EE"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2DD4BF"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="96" fill="url(#bgGrad)"/>
+
+  <!-- iOS Circle (top) -->
+  <circle cx="100" cy="70" r="24" fill="none" stroke="url(#cyanGrad)" stroke-width="4" opacity="0.9"/>
+
+  <!-- iPadOS Rounded Square (bottom-left) -->
+  <rect x="62" y="104" width="34" height="34" rx="8" ry="8" fill="none" stroke="white" stroke-width="4" opacity="0.9"/>
+
+  <!-- macOS Triangle (bottom-right) -->
+  <polygon points="120,104 148,138 106,138" fill="none" stroke="url(#tealGrad)" stroke-width="4" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- Central convergence dot -->
+  <circle cx="100" cy="100" r="6" fill="white"/>
+
+  <!-- Subtle connection lines -->
+  <line x1="100" y1="100" x2="100" y2="52" stroke="white" stroke-width="2" opacity="0.2"/>
+  <line x1="100" y1="100" x2="68" y2="120" stroke="white" stroke-width="2" opacity="0.2"/>
+  <line x1="100" y1="100" x2="128" y2="118" stroke="white" stroke-width="2" opacity="0.2"/>
+</svg>
