@@ -1,0 +1,7 @@
+# TriOS Fix — Robots.txt
+# Allow all search engines full access
+
+User-agent: *
+Allow: /
+
+Sitemap: https://nathanielmiddleton-cyber.github.io/-trios-fix/sitemap.xml
